@@ -7,15 +7,18 @@ import java.util.regex.*;
 public class Solution {
 
     public static void main(String[] args) {
+      
+        
         Scanner sc=new Scanner(System.in);
         String a=sc.nextLine();
         int b=sc.nextInt();
         int c=sc.nextInt();
       System.out.println("Name of the Student:"+a);
-    if(b==1 && c>=70)
-        System.out.println("John is Eligible for Placement");
+    if(b<3 && c>70 )
+        System.out.println(a+ " is Eligible for Placement");
    else
-      System.out.println("John is Not Eligible for Placement");
+      System.out.println(a+ " is Not Eligible for Placement");
           
     }
 }
+    
