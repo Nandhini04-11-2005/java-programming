@@ -12,22 +12,22 @@ Scanner sc=new Scanner(System.in);
 if(a>b) 
  {
 if(a>c){
-System.out.println("a is largest then b and c") ;
+System.out.println("a is largest then b and c");
 } 
 else
 {
-System.out.println("c is largest then a and b") ;
+System.out.println("c is largest then a and b");
  }  
 } 
 else
 {
 if(b>c)
 {
-    System.out.println("b is largest then a and c") ;
+    System.out.println("b is largest then a and c");
 } 
 else
 {
-System.out.println("c is largest then a and b") ;
+System.out.println("c is largest then a and b");
 } 
 } 
 } 
