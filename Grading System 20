@@ -46,7 +46,7 @@ else
 System.out.println("Name of the Student:" + a);
 System.out.println("Total Mark:" + total);
 System.out.printf("Average Mark:%.1f\n", average);
-System.out.println("Grade Mark:" + grade)
+System.out.println("Grade Mark:" + grade);
 }
 }
 
