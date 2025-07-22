@@ -1,0 +1,39 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+public class Solution {
+public static void main(String[] args) {
+     Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+      int[]arr=new int[n];
+        for(int i=0;i<n;i++) 
+        {
+            arr[i]=sc.nextInt();
+        }
+        boolean even=false,odd=false;
+        for(int b:arr) 
+        {
+            if(b%2==0) 
+                even=true;
+            else 
+                odd=true;
+            if(even && odd)
+                break;
+        }
+        if(even && odd)
+        {
+            System.out.println("Mixed");
+        }
+        else if(even) 
+        {
+            System.out.println("Even");
+        } 
+        else
+        {
+            System.out.println("Odd");
+        }
+    }
+}
+
