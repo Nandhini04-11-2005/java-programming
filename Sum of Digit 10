@@ -10,8 +10,9 @@ int n=sc.nextInt();
 if(n<=99)
 {
 System.out.println("Invalid Input");
-return;
 } 
+else
+{
 int sum=0;
 while(n>0)
 {
@@ -21,4 +22,5 @@ n=n/10;
 }
 System.out.println("Sum of digit is "+sum);
 }
+} 
 }
