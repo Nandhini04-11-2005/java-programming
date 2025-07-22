@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+public class Solution {
+public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        System.out.println("Enter a number \n"+a);
+        int count=0;
+        while(a>1)
+        {
+            if(a%2==0)
+            {
+                a=a/2;
+            }
+            else
+            {
+                a=(3*a)+1;
+            }
+            System.out.println(a);
+            count++;
+        }
+           System.out.println("count:"+count); 
+            }
+        }
